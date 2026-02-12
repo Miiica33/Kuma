@@ -2,7 +2,7 @@
   <img src="frontend/public/icons/kuma-logo.png" alt="Kuma Logo" width="96" />
 </p>
 
-<h1 align="center">Kuma PWA 语音助手</h1>
+<h1 align="center">Kuma</h1>
 
 <p align="center">
   一个跨平台的 PWA 语音助手，支持文本和语音输入，通过 FastAPI + Next.js 与大模型进行低延迟交互。
