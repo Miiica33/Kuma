@@ -15,7 +15,7 @@
 
 1. 打开你的 IDE Agent 对话窗口（如 Cursor Chat）。
 2. 复制下面「给 Agent 的完整指令模板」并发送。
-3. 只把 `<你的仓库地址>` 替换成自己的值。
+3. 仓库地址已内置，无需替换（如你 fork 了仓库，可改成你自己的地址）。
 4. API Key 不要发到聊天里，按模板让 Agent 帮你定位项目根目录 `.env`，你自己在文件中替换 `ARK_API_KEY=`。
 5. 等 Agent 执行，如果中途需要确认会提示你。
 
@@ -37,7 +37,7 @@
 5) 默认使用 conda 环境，环境名固定为 kuma。
 
 【项目信息】
-- 仓库地址：<你的仓库地址>
+- 仓库地址：https://github.com/Miiica33/Kuma.git
 - 项目目录名：Kuma
 - Python 版本：3.10
 - Node.js 要求：18+
@@ -57,7 +57,7 @@
 
 第二阶段：获取代码
 - 若本地不存在 Kuma 目录：
-  - git clone <你的仓库地址>
+  - git clone https://github.com/Miiica33/Kuma.git
 - 进入项目目录：
   - cd Kuma
 
@@ -127,7 +127,7 @@
 
 ```text
 请帮我在本机完整部署 Kuma：拉取仓库、创建 conda 环境(kuma, python3.10)、安装前后端依赖、定位项目根目录 .env 并提示我手动替换 ARK_API_KEY、启动前后端并验证 http://localhost:3000 和 http://localhost:8000/docs 可用。尽量直接执行命令，不要只给建议；遇错先自动修复，最后给我“已完成清单 + 运行端口 + 下次最短启动命令”。
-仓库：<你的仓库地址>
+仓库：https://github.com/Miiica33/Kuma.git
 ```
 
 ---

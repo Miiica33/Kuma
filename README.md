@@ -22,7 +22,7 @@
 4. 在 `.env` 填好 `ARK_API_KEY` 后重启服务。
 
 ```bash
-git clone <你的仓库地址>
+git clone https://github.com/Miiica33/Kuma.git
 cd Kuma
 chmod +x deploy.sh
 ./deploy.sh
@@ -73,7 +73,7 @@ conda activate kuma
 ## 2. 拉取代码
 
 ```bash
-git clone <你的仓库地址>
+git clone https://github.com/Miiica33/Kuma.git
 cd Kuma
 ```
 
